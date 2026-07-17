@@ -1,0 +1,31 @@
+body{
+    h2,
+    h3,
+    a {
+        font-family:  "Fraunces";
+        font-weight: 900;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p,
+    li {
+        font-family: "Barlow";
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .testimonials p {
+        font-size: 0.8rem;
+    }
+    .modal-container li {
+        font-size: 1.5rem;
+        font-family:  "Barlow";
+        &:last-child {
+            font-family: "Fraunces";
+            font-weight: 700;
+        }
+    }
+}

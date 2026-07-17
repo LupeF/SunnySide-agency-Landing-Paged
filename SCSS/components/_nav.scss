@@ -1,0 +1,62 @@
+
+nav{
+    background: url('/images/mobile/image-header.jpg') no-repeat bottom / cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    height: 400px;
+    h2{
+       color: hsl(0, 100%, 100%);
+    }
+    img{
+        height: 35px;
+        width: 120px;
+    }
+    ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        & + div {
+            font-size: 25px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 9rem;
+        }
+        .bar{
+            display: inline-block;
+            height: 3px;
+            width: 25px;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+            cursor: pointer;
+            &:before{
+                content: '';
+                display: inline-block;
+                height: 3px;
+                width: 25px;
+                background-color: black;
+                border-radius: 5px;
+                position: absolute;
+                top: -8px;
+            }
+            &:after{
+                content: '';
+                display: inline-block;
+                height: 3px;
+                width: 25px;
+                background-color: black;
+                border-radius: 5px;
+                position: absolute;
+                top: 8px;
+            }
+        }
+    }
+    .arrow-down{
+        height:100px;
+        width: 30px;
+    }
+}
