@@ -1,4 +1,12 @@
 body{
+    .nav-links a {
+        font-family: "Barlow";
+        font-weight: 400;
+        &:last-child {
+            font-family: "Fraunces";
+            font-weight: 500;
+        }
+    }
     h2,
     h3,
     a {
@@ -21,8 +29,11 @@ body{
         font-size: 0.8rem;
     }
     .modal-container li {
-        font-size: 1.5rem;
         font-family:  "Barlow";
+        @media(min-width:768px){
+             font-size: 1.5rem;
+        }
+        
         &:last-child {
             font-family: "Fraunces";
             font-weight: 700;
