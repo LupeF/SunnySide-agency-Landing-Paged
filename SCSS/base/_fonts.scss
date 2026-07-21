@@ -27,6 +27,9 @@ body{
     }
     .testimonials p {
         font-size: 0.8rem;
+        @media(min-width:768px){
+            font-size: 0.9rem;
+        }
     }
     .modal-container li {
         font-family:  "Barlow";
