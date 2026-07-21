@@ -174,7 +174,7 @@ body .gallery img {
 }
 
 nav {
-  background: url("/images/mobile/image-header.jpg") no-repeat bottom/cover;
+  background: url("../images/mobile/image-header.jpg") no-repeat bottom/cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -184,7 +184,7 @@ nav {
 }
 @media (min-width: 768px) {
   nav {
-    background: url("/images/desktop/image-header.jpg") no-repeat bottom/cover;
+    background: url("../images/desktop/image-header.jpg") no-repeat bottom/cover;
   }
 }
 nav h2 {
