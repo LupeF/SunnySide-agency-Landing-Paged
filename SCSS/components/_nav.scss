@@ -1,6 +1,6 @@
 
 nav{
-    background: url('/images/mobile/image-header.jpg') no-repeat bottom / cover;
+    background: url('../images/mobile/image-header.jpg') no-repeat bottom / cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@ nav{
     padding: 1rem;
     height: 400px;
     @media(min-width: 768px){
-            background: url('/images/desktop/image-header.jpg') no-repeat bottom / cover;
+            background: url('../images/desktop/image-header.jpg') no-repeat bottom / cover;
     }
     h2{
        color: hsl(0, 100%, 100%);
